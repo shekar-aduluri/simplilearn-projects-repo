@@ -1,0 +1,2 @@
+com/spring/example/myfirstdemo/MyfirstdemoApplicationTests.java
+ com.spring.example.myfirstdemo.MyfirstdemoApplicationTests
