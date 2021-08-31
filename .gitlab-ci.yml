@@ -1,0 +1,12 @@
+stages:
+  - build
+  - test
+
+build:
+  stage: build
+  image: openjdk:8
+  script:
+    - ./gradlew build
+  artifacts:
+    paths:
+      - ./build/libs/
